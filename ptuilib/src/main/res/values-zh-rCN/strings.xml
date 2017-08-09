@@ -1,0 +1,11 @@
+<resources>
+    <string name="str_am">上午</string>
+    <string name="str_pm">下午</string>
+    <string name="str_all_day">全天</string>
+    <string name="str_year">年</string>
+    <string name="str_month">月</string>
+    <string name="str_day">日</string>
+    <string name="str_hour">时</string>
+    <string name="str_minute">分</string>
+    <string name="str_second">秒</string>
+</resources>

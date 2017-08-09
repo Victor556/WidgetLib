@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/parent"
+              android:layout_width="470dp"
+              android:layout_height="280dp"
+              android:layout_gravity="center"
+              android:minWidth="300dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/str_not_more_storage"
+        android:textColor="#757575"
+        android:textSize="21sp"/>
+
+    <com.putao.ptx.widget.PTButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_bkg_dlg_btn"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/str_i_know"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:color_normal="#2196f3"
+        app:color_press="#1f8de4"
+        app:color_text_normal="#ffffff"
+        app:color_text_press="#ffffff"/>
+
+</LinearLayout>

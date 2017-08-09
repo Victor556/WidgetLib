@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="clr_index_bg">#F6F6F6</color>
+    <color name="clr_white">#FFFFFF</color>
+    <color name="clr_white_70">#BEBEBE</color>
+    <color name="clr_black">#000000</color>
+    <color name="clr_black_pt_87">#212121</color>
+    <color name="clr_black_pt_75">#757575</color>
+    <color name="clr_black_pt_54">#727272</color>
+    <color name="clr_gray">#CCCCCC</color>
+    <color name="clr_gray_pt">#BDBDBD</color>
+    <color name="clr_green">#00FF00</color>
+    <color name="clr_green_pt">#35C25B</color>
+    <color name="clr_index_header_text_default">#BDBDBD</color>
+    <color name="clr_index_header_text_checked">#35C25B</color>
+
+    <!-- 时间轴圆点与竖线 -->
+    <color name="clr_date_line">#F7F7F7</color>
+    <color name="clr_date_line_circle">#ECECEC</color>
+
+    <!-- 时间轴操作按钮字体颜色 -->
+    <color name="clr_date_line_bottom_bar_checked">#0000FF</color>
+    <color name="clr_date_line_bottom_bar_default">#000000</color>
+
+    <!-- Doalog按钮文字颜色 -->
+    <color name="clr_text_dialog_title">#393939</color>
+    <color name="clr_text_dialog_btn_default">#000000</color>
+    <color name="clr_text_dialog_btn_press">#00FF00</color>
+
+    <!-- bar -->
+    <color name="clr_bar_index_buttom">#747474</color>
+
+
+
+    <!-- 编辑相关 -->
+    <color name="clr_photo_edit_bg">#C7C7C7</color>
+    <color name="clr_photo_edit_line">#DEDEDE</color>
+    <color name="clr_photo_bottom_bg">#282828</color>
+
+
+
+    <color name="txt_black_26">#42000000</color>
+    <color name="txt_black_10">#DBDBDB</color>
+    <color name="txt_black_12">#1e000000</color>
+    <color name="txt_black_87">#dd000000</color>
+    <color name="txt_black_54">#8a000000</color>
+    <color name="txt_black_70">#b2000000</color>
+    <color name="white">#ffffff</color>
+
+</resources>

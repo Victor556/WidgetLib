@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <com.putao.ptx.widget.PTFreshView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="6dp"
+        android:background="#aae6cece"
+        android:padding="10dp"
+        app:duration="5000"
+        app:width_stroke="10dp"
+        />
+
+
+    <com.putao.ptx.widget.PTFreshView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:background="#aae6cece"
+        android:padding="10dp"
+        app:color_stroke="@android:color/black"
+        app:duration="2000"
+        app:width_stroke="10dp"
+        />
+
+
+    <com.putao.ptx.widget.PTFreshView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:background="#aae6cece"
+        android:padding="10dp"
+        app:color_stroke="#0F0"
+        app:min_alph="10"
+        app:width_stroke="10dp"
+        />
+
+    <com.putao.ptx.widget.PTFreshView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:background="#000"
+        android:padding="25dp"
+        app:angle_start="0"
+        app:color_stroke="#fff"
+        app:min_alph="200"
+        app:width_stroke="15dp"
+        />
+
+    <com.putao.ptx.widget.PTFreshView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:background="#aae6cece"
+        android:padding="25dp"
+        app:angle_start="180"
+        app:color_stroke="#00f"
+        app:duration="500"
+        app:min_alph="150"
+        app:width_stroke="15dp"
+        />
+
+</LinearLayout>

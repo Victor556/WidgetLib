@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="audioPopupWidth">52dp</dimen>
+    <dimen name="audioPopupHeight">252dp</dimen>
+    <dimen name="audioSeekBarWidth">230dp</dimen>
+    <dimen name="audioSeekBarHeight">4dp</dimen>
+    <dimen name="radius">8dp</dimen>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="read_more">更多详情 ▼</string>
+    <string name="read_less">收起 ▲</string>
+    <string name="str_am">AM</string>
+    <string name="str_pm">PM</string>
+    <string name="str_all_day">All Day</string>
+    <string name="str_year"> year</string>
+    <string name="str_month"> month</string>
+    <string name="str_day"> day</string>
+    <string name="str_hour"> hour</string>
+    <string name="str_minute"> minute</string>
+    <string name="str_second"> second</string>
+
+    <string name="str_i_know">知道了！</string>
+    <string name="str_not_more_storage">存储空间不足</string>
+    <string name="str_g_is_turn_off_server">g_is_turn_off_server</string>
+    <string name="str_zuobiao">zuobiao</string>
+    <string name="str_right">right</string>
+
+</resources>

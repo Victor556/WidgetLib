@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.putao.ptx.widget.PTCheckBoxButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:putao="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cb_collection"
+    style="@style/bar_icon_64px"
+    putao:drawable_height="@integer/unit_bottom_bar_icon_size"
+    putao:drawable_width="@integer/unit_bottom_bar_icon_size"
+    putao:src="@drawable/selector_preview_bar_bottom_opreation_collection"/>
+
+
+

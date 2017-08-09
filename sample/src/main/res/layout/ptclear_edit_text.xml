@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:orientation="vertical"
+              android:background="#ffff"
+              android:layout_height="wrap_content">
+
+    <com.putao.ptx.widget.PTClearEditText
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/edit"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="姓名"
+        android:visibility="visible"/>
+
+    <com.putao.ptx.widget.PTClearEditText
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="500dp"
+        android:layout_height="48dp"
+        android:hint="年龄"
+        android:visibility="visible"/>
+
+</LinearLayout>

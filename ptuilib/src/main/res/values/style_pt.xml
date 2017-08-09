@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bar_icon_text_64px" >
+        <item name="android:layout_width">64dp</item>
+        <!--<item name="android:layout_weight">1</item>-->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:focusable">true</item>
+        <!--<item name="android:textColor">@drawable/select_bar_text_color</item>-->
+        <item name="android:textColor">@color/clr_bar_index_buttom</item>
+        <item name="android:textSize">@dimen/unit_bottom_bar_index_text_size</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">@dimen/unit_bottom_bar_padding_top</item>
+        <item name="android:paddingBottom">@dimen/unit_bottom_bar_padding_bottom</item>
+    </style>
+
+    <style name="bar_icon_64px" >
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="share_icon" >
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/clr_black</item>
+        <item name="android:paddingTop">88dp</item>
+        <item name="android:textSize">@dimen/font_size_dialog_text_dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+</resources>

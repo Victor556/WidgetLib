@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/audioPopupWidth"
+        android:layout_height="@dimen/audioPopupHeight"
+        android:background="@drawable/popwindow_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/audio_setting"
+            android:layout_width="@dimen/audioSeekBarWidth"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/audioSeekBarHeight"
+            android:minHeight="@dimen/audioSeekBarHeight"
+            android:progressDrawable="@drawable/seek_bar_drawable"
+            android:rotation="-90"
+            android:splitTrack="false"
+            android:thumb="@drawable/icon_progress_40_40"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <com.putao.ptx.widget.PTButton
+        android:id="@+id/cs_size"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        app:color_normal="#00f"
+        app:color_press="#ff00"
+        app:color_stroke_normal="@color/clr_gray"
+        app:color_stroke_press="#a000"
+        app:color_text_normal="#afff"
+        app:color_text_press="#a7f0"
+        app:color_text_unable="#f000"
+        app:is_half_circle="true"
+        app:radius_corner="20dp"
+        app:width_stroke="2dp"
+        />
+
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="color_normal=#500
+        color_press=#ff00   color_stroke_normal=@color/clr_gray
+        color_stroke_press=#a000  color_text_normal=#afff  color_text_press=a7f0
+        is_half_circle=false  radius_corner=5dp width_stroke=1dp
+        背景与颜色都设置了"
+        app:color_normal="#500"
+        app:color_press="#ff00"
+        app:color_stroke_normal="@color/clr_gray"
+        app:color_stroke_press="#a000"
+        app:color_text_normal="#afff"
+        app:color_text_press="#a7f0"
+        app:color_text_unable="#f000"
+        app:is_half_circle="false"
+        app:radius_corner="5dp"
+        app:width_stroke="1dp"
+        />
+
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="没有设置背景，设置了文字颜色 color_text_normal=#afff,color_text_press=#a7f0"
+        app:color_text_normal="#afff"
+        app:color_text_press="#a7f0"
+        app:color_text_unable="#f000"
+        />
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="设置了背景width_stroke=1dp radius_corner
+        color_normal,
+        color_press
+        color_stroke_normal  color_stroke_press
+        is_half_circle=false，
+        没有设置了文字颜色"
+        app:color_normal="#5f0"
+        app:color_press="#ff00"
+        app:color_stroke_normal="@color/clr_gray"
+        app:color_stroke_press="#a000"
+        app:is_half_circle="false"
+        app:radius_corner="5dp"
+        app:width_stroke="1dp"
+        />
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="背景与文字颜色都没有设置"
+        />
+
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="只设置了文字颜色 android:textColor=“#fff"
+        android:textColor="#fff"
+        />
+
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="width_stroke=2dp textColor=#296 背景与文字颜色都设置不完整"
+        android:textColor="#296"
+        app:width_stroke="2dp"
+        />
+
+
+    <com.putao.ptx.widget.PTButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/button_confirm_selector"
+        android:padding="10dp"
+        android:text="background=@drawable/button_confirm_selector textColor=#296 背景与文字颜色都设置不完整"
+        android:textColor="#296"
+        />
+</LinearLayout>

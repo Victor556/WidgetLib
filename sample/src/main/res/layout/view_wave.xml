@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <com.putao.ptx.widget.PTWaveView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:waveSpeed="13"
+        app:waveLayerCount="2"
+        app:waveWidth="600dp"
+        app:waveHeight="30dp" />
+
+    <com.putao.ptx.widget.PTWaveView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:max="100"
+        android:progress="30"
+        app:waveColor="#00F"
+        app:waveSpeed="13"
+        app:waveLayerCount="2"
+        app:waveWidth="600dp"
+        app:waveHeight="30dp"
+        app:waveEnterBy="right"/>
+
+    <com.putao.ptx.widget.PTWaveView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:max="100"
+        android:progress="30"
+        app:waveColor="#F00"
+        app:waveSpeed="13"
+        app:waveWidth="600dp"
+        app:waveHeight="30dp"
+        app:waveIcon="@mipmap/test_girl"
+        app:waveEnterBy="left"/>
+
+</LinearLayout>

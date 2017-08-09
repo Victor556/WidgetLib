@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global attrs -->
+    <attr name="item_width" format="dimension|reference"/>
+    <attr name="width_stroke" format="dimension"/>
+
+    <declare-styleable name="ViewDrawable">
+        <attr name="drawable_width" format="integer"></attr>
+        <attr name="drawable_height" format="integer"></attr>
+        <attr name="drawable" format="reference"></attr>
+        <attr name="src" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PTFlowBanner">
+        <attr name="offscreen_page_limit" format="integer|reference"/>
+        <attr name="item_width"/>
+        <attr name="android:duration"/>
+    </declare-styleable>
+
+    <declare-styleable name="PTWaveView">
+        <!-- 波长(即一个波峰占x长度) -->
+        <attr name="waveWidth" format="dimension|reference"/>
+        <attr name="waveHeight" format="dimension|reference"/>
+        <attr name="waveColor" format="color|reference"/>
+        <!-- 每帧移动距离 -->
+        <attr name="waveSpeed" format="integer|reference"/>
+        <attr name="waveLayerCount" format="integer|reference"/>
+        <attr name="waveIcon" format="reference"/>
+        <attr name="waveEnterBy">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <!-- 总进度 -->
+        <attr name="android:max"/>
+        <!-- 当前进度 -->
+        <attr name="android:progress"/>
+    </declare-styleable>
+
+    <declare-styleable name="PTButton">
+        <!--正常时的背景色-->
+        <attr name="color_normal" format="color"></attr>
+        <!--按压时的背景色-->
+        <attr name="color_press" format="color"></attr>
+        <!--unable时的背景色-->
+        <attr name="color_unable" format="color"></attr>
+        <!--正常时文字颜色-->
+        <attr name="color_text_normal" format="color"></attr>
+        <!--按下时文字颜色-->
+        <attr name="color_text_press" format="color"></attr>
+        <!--unable时文字颜色-->
+        <attr name="color_text_unable" format="color"></attr>
+        <!--正常时边缘线的颜色-->
+        <attr name="color_stroke_normal" format="color"></attr>
+        <!--按下时边缘线的颜色-->
+        <attr name="color_stroke_press" format="color"></attr>
+        <!--边沿线的宽度 默认0-->
+        <attr name="width_stroke"/>
+        <!--圆角半径，左右两侧为半圆时无效-->
+        <attr name="radius_corner" format="dimension"></attr>
+
+        <!--是否左右两侧为半圆-->
+        <attr name="is_half_circle" format="boolean"></attr>
+        <!--默认居中-->
+        <attr name="android:gravity"/>
+        <!--默认18sp-->
+        <attr name="android:textSize"/>
+        <attr name="android:background"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PTFreshView">
+        <attr name="width_stroke"/>
+
+        <attr name="color_stroke" format="color"/>
+        <!--0~360-->
+        <attr name="angle_start" format="integer"/>
+        <!--刷新一圈的时间周期-->
+        <attr name="duration" format="integer"/>
+        <!--0~255,默认0-->
+        <attr name="min_alph" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PTViewFlow">
+        <attr name="sidebuffer" format="integer"/>
+        <attr name="item_width"/>
+        <attr name="item_height" format="dimension|reference"/>
+        <attr name="item_space" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PTCircleImageView">
+        <!-- 是否禁用圆角/圆形 -->
+        <attr name="disableCircleTransformation" format="boolean|reference"/>
+        <!-- 圆角大小 -->
+        <attr name="android:radius"/>
+        <!-- 圆角类型 -->
+        <attr name="type">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PTFlowLayout">
+        <attr name="android:gravity"/>
+        <!-- 流式布局子view单行居中模式，如果单行view高度不一可使用此属性控制 -->
+        <attr name="lineGravity">
+            <enum name="top" value="0"/>
+            <enum name="center_vertical" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PTBannerView">
+        <attr name="open_pt_mode" format="boolean"/>
+        <attr name="canLoop" format="boolean"/>
+        <attr name="indicatorPaddingLeft" format="dimension"/>
+        <attr name="indicatorPaddingRight" format="dimension"/>
+        <attr name="indicatorAlign">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PTReadMoreTextView">
+        <attr name="rtv_MaxLinesOnShrink" format="reference|integer"/>
+        <attr name="rtv_EllipsisHint" format="reference|string"/><!--default is ..-->
+        <attr name="rtv_ToExpandHint" format="reference|string"/><!--"to expand" hint string, default is "Expand"-->
+        <attr name="rtv_ToShrinkHint" format="reference|string"/><!--"to shrink" hint string, default is "Shrink"-->
+        <attr name="rtv_GapToExpandHint" format="reference|string"/><!--gap between "toExpandHint" and "trimmed text"-->
+        <attr name="rtv_GapToShrinkHint" format="reference|string"/><!--gap between "toShrinkHint" and "trimmed text"-->
+        <attr name="rtv_EnableToggle" format="reference|boolean"/><!--if toggle the state when click ExpandTextView-->
+        <attr name="rtv_ToExpandHintShow" format="reference|boolean"/><!--if show "toExpandHint"-->
+        <attr name="etv_ToShrinkHintShow" format="reference|boolean"/><!--if show "toShrinkHint"-->
+        <attr name="rtv_ToExpandHintColor" format="reference|color"/><!--text color of "toExpandHint"-->
+        <attr name="rtv_ToShrinkHintColor" format="reference|color"/><!--text color of "toShrinkHint"-->
+        <attr name="rtv_ToExpandHintColorBgPressed" format="reference|color"/><!--background color if "toExpandHint" pressed-->
+        <attr name="rtv_ToShrinkHintColorBgPressed" format="reference|color"/><!--background color if "toShrinkHint" pressed-->
+        <attr name="rtv_InitState" format="enum"><!--init state, default is shrink-->
+            <enum name="shrink" value="0"/>
+            <enum name="expand" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PTDateWheelViewWarpper">
+        <attr name="showYear" format="boolean|reference" />
+        <attr name="maxYear" format="integer|reference" />
+        <attr name="currentYear" format="integer|reference" />
+        <attr name="showMonth" format="boolean|reference" />
+        <attr name="currentMonth" format="integer|reference" />
+        <attr name="showDay" format="boolean|reference" />
+        <attr name="currentDay" format="integer|reference" />
+        <attr name="showHour" format="boolean|reference" />
+        <attr name="currentHour" format="integer|reference" />
+        <attr name="is24HourFormat" format="boolean|reference" />
+        <attr name="showMinute" format="boolean|reference" />
+        <attr name="currentMinute" format="integer|reference" />
+        <attr name="minuteCalibration" format="integer|reference" />
+        <attr name="showSecond" format="boolean|reference" />
+        <attr name="currentSecond" format="integer|reference" />
+        <attr name="secondCalibration" format="integer|reference" />
+        <attr name="visibleItems" format="integer|reference" />
+        <attr name="normalTextSize" format="dimension|reference" />
+        <attr name="selectedTextSize" format="dimension|reference" />
+        <!-- 强制不显示上下午全天等，不建议强制隐藏，程序会根据是否为24小时适配 -->
+        <attr name="disableAmOrPm" format="boolean|reference" />
+        <attr name="useUnit" format="boolean|reference" />
+        <!-- 单列是否均分宽度 -->
+        <attr name="childUseWeight" format="boolean|reference" />
+    </declare-styleable>
+</resources>

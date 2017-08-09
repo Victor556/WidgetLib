@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent"
+     >
+
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="390dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/black_bg_shape"
+        >
+
+        <TextView
+            android:id="@+id/tv_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="屏幕投射"
+            style="@style/touch_text_style"
+            android:gravity="center"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/icon_screen_selector"
+            />
+
+        <TextView
+            android:id="@+id/tv_app_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:layout_below="@+id/tv_screen"
+            android:text="APP限制"
+            android:gravity="center"
+            android:drawablePadding="6dp"
+            style="@style/touch_text_style"
+            android:drawableTop="@drawable/icon_limit_selector" />
+
+        <TextView
+            android:id="@+id/tv_app_synchronous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            style="@style/touch_text_style"
+            android:layout_marginRight="35dp"
+            android:layout_below="@+id/tv_screen"
+            android:text="APP同步"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/icon_synchronous_selector"
+            />
+
+        <TextView
+            android:id="@+id/tv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="82dp"
+            android:layout_marginBottom="30dp"
+            android:text="一键锁定"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            style="@style/touch_text_style"
+            android:drawableTop="@drawable/icon_lock_selector" />
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="82dp"
+            android:layout_marginBottom="30dp"
+            style="@style/touch_text_style"
+            android:text="一键退出"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/icon_tuichu" />
+    </RelativeLayout>
+
+</RelativeLayout>

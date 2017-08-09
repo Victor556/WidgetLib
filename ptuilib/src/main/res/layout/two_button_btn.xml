@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/parent"
+              android:layout_width="600dp"
+              android:layout_height="250dp"
+              android:layout_gravity="center"
+              android:orientation="vertical"
+              android:weightSum="26"><!--ptx_shape_exit_dialog_background-->
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/str_g_is_turn_off_server"
+        android:textColor="#DE000000"
+        android:textSize="21sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="50">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="3"/>
+
+        <com.putao.ptx.widget.PTButton
+            android:id="@+id/btnLeft"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="20"
+            android:elevation="0dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/str_zuobiao"
+            android:textSize="18sp"
+            android:translationZ="0dp"
+            app:color_normal="#f0f0f0"
+            app:color_press="#ffffffff"
+            app:color_stroke_normal="#124f4f4f"
+            app:color_stroke_press="#124f4f4f"
+            app:color_text_normal="#DE000000"
+            app:color_text_press="#DE000000"
+            app:width_stroke="1dp"/><!--@color/ptx_selector_color_exit_btn-->
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="3.1"/>
+
+        <com.putao.ptx.widget.PTButton
+            android:id="@+id/btnRight"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="20"
+            android:elevation="0dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/str_right"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:translationZ="0dp"
+            app:color_normal="#2196f3"
+            app:color_press="#1f8de4"
+            app:color_text_normal="#ffffff"
+            app:color_text_press="#ffffff"/><!--@color/ptx_selector_color_exit_btn-->
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="3"/>
+    </LinearLayout>
+</LinearLayout>

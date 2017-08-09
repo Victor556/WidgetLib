@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="514dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/popup_bg"
+              android:orientation="vertical"
+              android:paddingLeft="30dp"
+              android:paddingRight="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="设置"
+        android:textColor="@color/txt_black_87"
+        android:textSize="18dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp">
+
+        <View
+            android:id="@+id/v_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/txt_black_12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="桌面快捷助手"
+            android:textColor="@color/txt_black_87"
+            android:textSize="17dp"/>
+
+        <ToggleButton
+            android:id="@+id/tb_switch"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:button="@drawable/switch_btn"
+            android:gravity="right"
+            android:text=""
+            android:textOff=""
+            android:textOn=""/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/txt_black_12"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_touch_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="调节按钮显示大小"
+            android:textColor="@color/txt_black_87"
+            android:textSize="17dp"/>
+
+        <com.putao.ptx.widget.PTCustomSeekBar
+            android:id="@+id/cs_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="调节按钮显示透明度"
+            android:textColor="@color/txt_black_87"
+            android:textSize="17dp"/>
+
+
+        <com.putao.ptx.widget.PTCustomSeekBar
+            android:id="@+id/cs_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_sure"
+        style="@style/confirm_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="30dp"
+        android:text="确定"/>
+</LinearLayout>
